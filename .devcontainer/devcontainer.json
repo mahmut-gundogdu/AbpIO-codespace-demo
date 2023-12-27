@@ -37,7 +37,8 @@
         "DOTNET_MULTILEVEL_LOOKUP": "0",
         "TARGET": "net8.0",
         "ConnectionStrings__Default":"Server=localhost;Database=BookStore;User ID=SA;Password=myPassw0rd;Encrypt=false",
-        "odin": "https://$CODESPACE_NAME-4300.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN"
+        "odin": "https://$CODESPACE_NAME-4300.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN",
+        "ANGULAR_URL":"https://$CODESPACE_NAME-4200.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN"
     }
 }
  
