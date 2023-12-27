@@ -2,7 +2,8 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
      "ghcr.io/devcontainers/features/dotnet:2": {
-        "version": "8.0.0",
-    }
+        "version": "8.0.0"
+     },
+    "ghcr.io/devcontainers-contrib/features/angular-cli:2": {}
   }
 }
