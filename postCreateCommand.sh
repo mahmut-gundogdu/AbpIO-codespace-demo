@@ -31,3 +31,8 @@ docker run --name tmp-rabbitmq \
     -p 15672:15672 \
     -p 5672:5672 \
     rabbitmq:3-management
+
+# Set Environment Variables
+
+echo "export OpenIddict__Applications__BookStore_App__RootUrl=https://$CODESPACE_NAME-4200.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN" >> ~/.bashrc
+source ~/.bashrc
