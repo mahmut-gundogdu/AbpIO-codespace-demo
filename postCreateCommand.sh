@@ -1,7 +1,11 @@
 #!/bin/bash
 
+# Install dotnet cert
+dotnet dev-certs https --trust
+
 # Install the Volo.Abp.Cli tool
 dotnet tool install -g Volo.Abp.Cli
+abp install-libs
 
 # Start SQL Server container
 docker run --name tmp-sqlserver \
