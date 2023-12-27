@@ -32,7 +32,7 @@
             ]
         }
     },
-    "postCreateCommand": "dotnet tool install -g Volo.Abp.Cli",
+    "postCreateCommand": "chmod +x postCreateCommand.sh && ./postCreateCommand.sh",
     "remoteEnv": {
         "DOTNET_MULTILEVEL_LOOKUP": "0",
         "TARGET": "net8.0",
