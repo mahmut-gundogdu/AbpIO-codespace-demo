@@ -35,6 +35,7 @@
     "postCreateCommand": "dotnet tool install -g Volo.Abp.Cli",
     "remoteEnv": {
         "DOTNET_MULTILEVEL_LOOKUP": "0",
-        "TARGET": "net8.0"
+        "TARGET": "net8.0",
+        "ConnectionStrings__Default":"Server=localhost;Database=BookStore;User ID=SA;Password=myPassw0rd;Encrypt=false"
     }
 }
