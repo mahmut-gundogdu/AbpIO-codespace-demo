@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo -e "ANGULAR_URL=\"https://$CODESPACE_NAME-4200.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN\"\nAUTH_URL=\"https://$CODESPACE_NAME-44396.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN\"\nAPP_URL=\"https://$CODESPACE_NAME-44390.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN\"\nApp__CorsOrigin=$ANGULAR_URL\nApp__SelfUrl=$AUTH_URL\nApp__ClientUrl=$ANGULAR_URL\nApp__CorsOrigins=$ANGULAR_URL,$AUTH_URL,$APP_URL\nApp__RedirectAllowedUrls=$ANGULAR_URL,$AUTH_URL,$APP_URL" >> ~/.bashrc
+
+
 # Install the Volo.Abp.Cli tool
 dotnet tool install -g Volo.Abp.Cli
 
